@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "nord": "^0.2.1",
@@ -43,5 +44,11 @@
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-plugin-react": "^7.24.0"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "bracketSpacing": true
   }
 }
