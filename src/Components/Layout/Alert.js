@@ -13,7 +13,7 @@ const Alert = ({ alert }) => {
 };
 
 Alert.propTypes = {
-    alert: PropTypes.object.isRequired,
+    alert: PropTypes.object,
 };
 
 export default Alert;
